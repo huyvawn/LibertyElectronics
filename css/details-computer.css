@@ -1,0 +1,53 @@
+.computer {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 130px 0;
+    background-color: #4f4aa6;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.titlepage {
+    text-align: left;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.computer .titlepage p {
+    color: #fff;
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 24px;
+    line-height: 40px;
+}
+
+.computer .titlepage h2 {
+    text-transform: none;
+    font-size: 80px;
+    color: #fff;
+    max-width: inherit;
+    border: inherit;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+.read_more {
+    font-size: 17px;
+    background-color: #48ca95;
+    color: #fff !important;
+    padding: 13px 0;
+    width: 100%;
+    max-width: 190px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all .5s;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+

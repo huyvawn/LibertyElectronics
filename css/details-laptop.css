@@ -1,0 +1,40 @@
+.laptop1 {
+    background-color: #f6f6f6;
+    padding: 90px 0;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.laptop1_img figure img {
+    width: 100%;
+}
+
+.laptop1 .titlepage {
+    text-align: right;
+}
+
+.laptop1 .titlepage h2 {
+    max-width: inherit;
+    border: inherit;
+    color: #000;
+}
+
+.laptop1 .titlepage p {
+    padding: 30px 0;
+    color: #000;
+}
+
+.read_more {
+    font-size: 17px;
+    background-color: #48ca95;
+    color: #fff !important;
+    padding: 13px 0;
+    width: 100%;
+    max-width: 190px;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all .5s;
+    font-weight: 500;
+}

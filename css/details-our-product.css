@@ -1,0 +1,41 @@
+        .col-wrap {
+            display: table; 
+            width: 100%; 
+        }
+        .col {
+            display: table-cell;
+            padding: 1em;
+            text-align: center;
+        }    
+        
+        p {
+            background-color: black;
+            color: white;
+            padding: 10px;
+        }
+        p:hover {
+            background-color: #04AA6D;
+            color: black;
+        }
+
+        .Register {
+            text-align: center;
+        }
+
+        .registerbtn {
+            border: 2px solid #04AA6D;
+            background-color: white;
+            color: #04AA6D;
+            padding: 20px 30px;
+            margin: 20px 0;
+            width: 20%;
+            opacity: 0.9;
+        }
+
+        .registerbtn:hover {
+        background-color: #04AA6D;
+        color: black;
+        opacity: 1;
+        }
+
+        

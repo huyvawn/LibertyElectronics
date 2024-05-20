@@ -4,18 +4,21 @@
 html,body{
     font-weight: 400;
     line-height: 24px;
+    height: 100%  ;
     color: black;
-    background-color:whitesmoke;
+    background-color:#4f4aa6;
     padding: 0 ;
     margin: 0;
-}
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+} 
 
 .top{
     top: 0;
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: #0cd6faf1;
+    background-color: #065766f1;
     height: 60px;
 }
 
@@ -54,16 +57,16 @@ margin: 1;
 
 }
 .main{
-        max-width: 1000px;
-        margin-top: 100px;
-        margin-left: auto;
-        margin-right: 800px;
+  display: flex;
+  justify-content: center; /* Căn giữa theo chiều ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  height: 60vh; /* Đặt chiều cao của .main bằng chiều cao của viewport */
         
 }
 .logo h2{
     font-family: 'Bungee', sans-serif;
     color: aquamarine;
-    padding-right: 100 px;
+    margin-top: -50px;
     
     
 }
@@ -110,9 +113,8 @@ margin: 1;
     background-color: green;
   }
   .green-background{
-    position: fixed;
-    background-color: green;
-    padding: 150px;
+    background-color: #4f4aa6;
+    padding: 200px;
     left: 0;
     width: 100%;
   }
@@ -136,9 +138,37 @@ margin: 1;
     .padding-32{
       padding-top: 30px;
       padding-bottom: 300px;
-      margin-right: 200px;
-    
-     
-      
+      margin-right: 200px;     
     }
  
+.line{
+ margin: 0 auto;
+ text-align: center;
+ display: block;
+}
+.logo-item{
+  margin: auto;
+  width: 200px;
+  height: 150px;
+  float: left;
+  
+}
+.line2{
+  float: left;
+  margin-top: -180px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 16px;
+  padding-left: 3.3cm;
+}
+.line2 p{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 11px;
+  margin-top: -10px;
+}
+.button{
+  font-size: 20px;
+  color: white;
+  background-color: red ;
+}

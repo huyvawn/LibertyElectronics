@@ -37,5 +37,8 @@
         color: black;
         opacity: 1;
         }
-
+.html,body{
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
         

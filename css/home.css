@@ -62,7 +62,8 @@ figure{
     margin-left: 0;
     display: block;
     height: 250px;
-    border: 1px solid;
+    padding-top: 10px;
+    /* border: 1px solid; */
     /* clear: both; */
 }
 
@@ -73,7 +74,7 @@ width: 50%;
 /* display: block; */
 height: 250px;
   position: relative;
-  border: 1px solid ;
+  /* border: 1px solid ; */
   /* padding: 30px 30px; */
 /* top: 18%; */
 /* position: absolute; */
@@ -94,7 +95,7 @@ float: right;
 width: 49%;
 max-height: 250px;
 /* top: 0; */
-border: 1px solid;
+/* border: 1px solid; */
 /* height: 200px; */
 
 }
@@ -123,7 +124,7 @@ clear: left;
 
 div.computer, div.laptop, div.tablet{
     /* background-color: white; */
-    border: 0.5px ridge #5be6a5 ;
+    border: 0.5px ridge #96bbaa;
     display: block;
     float: left;
     /* clear: right; */
@@ -166,4 +167,5 @@ overflow: auto;
     float: right;
     width: 26%;
     margin-left: 2em;
+    border-left:  1px solid #96bbaa;
 }

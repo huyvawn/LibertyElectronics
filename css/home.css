@@ -1,17 +1,57 @@
-body{
+figure,p {
+	margin: 0;
+	
+}
+html,body{
     /* text-align: left; */
     /* width: 100%; */
     color: white;
 }
 .main{
-    margin: 0;
+    
     background-image: url(../img/background.jpg) ;
 }
 header{
     background-color: #4b46a4;
     height: 150px;
-    margin: 0;
+    
     /* width: 100%; */
+}
+
+button.btn-nav{
+    background-color: transparent;
+    border: 1px solid #5be6a5;
+}
+
+button.btn-nav>a:hover{
+    color: black;
+}
+
+button.btn-nav>a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    float: left;
+}
+
+nav{
+    float: right;
+    text-align: right;
+}
+
+nav ul{
+    margin-top: 30px;
+    padding-top: 30px;
+    /* border: 1px solid; */
+    /* clear: right; */
+/* display: inline-block; */
+}
+
+nav li{
+    display: inline;
+    padding-right: 20px;
 }
 
 figure{
@@ -22,14 +62,14 @@ figure{
     margin-left: 0;
     display: block;
     height: 250px;
+    border: 1px solid;
     /* clear: both; */
-    /* height: 200px; */
 }
 
 .left-figure{
     float: left;
 width: 50%;
-margin: 0;
+/* margin: 0; */
 /* display: block; */
 height: 250px;
   position: relative;
@@ -52,6 +92,7 @@ height: 250px;
 img.banner-home{
 float: right;
 width: 49%;
+max-height: 250px;
 /* top: 0; */
 border: 1px solid;
 /* height: 200px; */
@@ -76,22 +117,8 @@ button{
     object-fit:fill;
 }
 
-.logo{
-    float: left;
-}
-
-nav{
-    float: right;
-    text-align: right;
-}
-
-nav ul{
-/* clear: right; */
-/* display: inline-block; */
-}
-
-nav li{
-    display: inline;
+div.computer{
+clear: left;
 }
 
 div.computer, div.laptop, div.tablet{
@@ -99,7 +126,7 @@ div.computer, div.laptop, div.tablet{
     border: 0.5px ridge #5be6a5 ;
     display: block;
     float: left;
-    clear: right;
+    /* clear: right; */
     width: 33%;
     text-align: center;
     font-weight: 500;
@@ -107,6 +134,7 @@ div.computer, div.laptop, div.tablet{
     padding: auto;
     margin: auto;
     border-radius: 10px;
+    margin-top: 1em;
 }
 
 div.review{
@@ -135,7 +163,7 @@ overflow: auto;
 
 .footerblock{
     text-align: center;
-    float: left;
-    width: 25%;
+    float: right;
+    width: 26%;
     margin-left: 2em;
 }

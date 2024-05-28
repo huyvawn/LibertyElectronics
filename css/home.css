@@ -8,22 +8,33 @@ html,body{
     color: white;
 }
 .main{
-    
-    background-image: url(../img/background.jpg) ;
+    margin: 0;
+    background-image: url(../img/background1.jpg) ;
 }
 header{
     background-color: #4b46a4;
-    height: 150px;
+    height: 100px;
+    border-bottom: 1px solid #5be6a5 ;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    overflow: hidden;
     /* width: 100%; */
 }
 
 button.btn-nav{
     background-color: transparent;
-    border: 1px solid #5be6a5;
+    border: hidden;
 }
 
-button.btn-nav>a:hover{
+/* button.btn-nav>a:hover{ */
+    /* color: black; */
+/* } */
+
+button.btn-nav:hover{
+    background-color: white;
     color: black;
+    cursor: pointer;
 }
 
 button.btn-nav>a{
@@ -51,7 +62,7 @@ nav ul{
 
 nav li{
     display: inline;
-    padding-right: 20px;
+    padding-right: 25px;
 }
 
 figure{
@@ -59,12 +70,13 @@ figure{
     width: 100%;
     /* max-width: 1200px; */
     /* margin: auto; */
-    margin-left: 0;
     display: block;
     height: 250px;
-    padding-top: 10px;
+    padding-top: 50px;
+    margin: 0 0 3em 0;
     /* border: 1px solid; */
     /* clear: both; */
+    
 }
 
 .left-figure{
@@ -95,7 +107,8 @@ img.cart{
 }
 
 input.search-bar{
-    position:relative; bottom: 30px;
+    position:relative;
+    bottom: 20px;
 }
 
 img.banner-home{
@@ -113,7 +126,7 @@ button{
     color: white;
     border-radius: 10px;
     font-size: 17px;
-    padding: 10px 3px;
+    padding: 6px 3px;
     text-transform: uppercase;
     font-weight: 500;
     /* font-family:  Arial, Helvetica, sans-serif; */
@@ -124,6 +137,8 @@ button{
     height: 100%;
     max-width: 1400px;
     object-fit:fill;
+    border-bottom: 1px solid;
+    border-right: 1px solid;
 }
 
 div.computer{
@@ -132,18 +147,20 @@ clear: left;
 
 div.computer, div.laptop, div.tablet{
     /* background-color: white; */
-    border: 0.5px ridge #96bbaa;
+    border-right: 0.5px ridge #96bbaa;
     display: block;
     float: left;
     /* clear: right; */
-    width: 33%;
+    width: 31%;
     text-align: center;
     font-weight: 500;
     font-size: larger;
     padding: auto;
-    margin: auto;
-    border-radius: 10px;
+    margin: 12em 1em 5em 0;
+    border-radius: 100px;
     margin-top: 1em;
+    position: relative;
+    top: 3em;
 }
 
 div.review{
@@ -161,6 +178,8 @@ div.review{
 }
 
 .review{
+    margin: 3em 0 0 0;
+    padding: 0 3em 3em 3em;
     display: block;
 }
 
@@ -168,6 +187,7 @@ footer{
 background-color: #4b46a4;
 text-align: right;
 overflow: auto;
+border-top: 1px solid #96bbaa;
 }
 
 .footerblock{

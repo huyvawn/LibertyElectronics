@@ -1,0 +1,89 @@
+figure,p {
+	margin: 0;
+	
+}
+html,body{
+    /* text-align: left; */
+    /* width: 100%; */
+    color: white;
+}
+
+header{
+    background-color: #4b46a4;
+    height: 100px;
+    border-bottom: 1px solid #5be6a5 ;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    overflow: hidden;
+    
+    /* width: 100%; */
+}
+
+button.btn-nav{
+    background-color: transparent;
+    border: hidden;
+}
+
+button.btn-nav:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+button.btn-nav>a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    float: left;
+}
+
+nav{
+    float: right;
+    text-align: right;
+
+}
+
+nav li{
+    display: inline;
+    padding-right: 25px;
+}
+
+img.cart{
+    border: 1px solid green;
+}
+
+input.search-bar{
+    position:relative;
+    bottom: 20px;
+}
+
+button{
+    background-color: #5be6a5;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 6px 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* font-family:  Arial, Helvetica, sans-serif; */
+}
+
+footer{
+    background-image: url(../img/footer.jpg);
+    background-color: black;
+    text-align: right;
+    overflow: auto;
+    border-top: 1px solid #96bbaa;
+    }
+    
+.footerblock{
+        text-align: center;
+        float: right;
+        width: 26%;
+        margin-left: 2em;
+        border-left:  1px solid #96bbaa;
+      
+    }

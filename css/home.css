@@ -10,6 +10,7 @@ html,body{
 .main{
     margin: 0;
     color: black;
+    
 }
 header{
     background-color: #4b46a4;
@@ -76,6 +77,7 @@ width: 100%;
     height: 250px;
     padding-top: 50px;
     margin: 0 0 3em 0;
+    background-color: black;
 }
 
 figure{
@@ -201,7 +203,8 @@ div.sale{
 }
 
 footer{
-background-color: #4b46a4;
+background-image: url(../img/footer.jpg);
+background-color: black;
 text-align: right;
 overflow: auto;
 border-top: 1px solid #96bbaa;

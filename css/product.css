@@ -3,28 +3,65 @@ body {
     margin: 0;
     padding: 0;
 }
-header {
-    background-color: #111411;
-    color: white;
-    font-size: 30px;
-    padding: 10px 0;
-    text-align: center;
+header{
+    background-color: #4b46a4;
+    height: 100px;
+    border-bottom: 1px solid #5be6a5 ;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    overflow: hidden;
+    
+    /* width: 100%; */
 }
-nav {
-    background-color: #871515;
-    height: 47px;
+button.btn-nav{
+    background-color: transparent;
+    border: hidden;
 }
-nav a {
-    float: left;
-    display: block;
+
+button.btn-nav:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+button.btn-nav>a{
     color: white;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
-nav a:hover {
-    background-color: #ddd;
-    color: black;
+
+.logo{
+    float: left;
+}
+
+nav{
+    float: right;
+    text-align: right;
+
+}
+
+nav li{
+    display: inline;
+    padding-right: 25px;
+}
+
+img.cart{
+    border: 1px solid green;
+}
+
+input.search-bar{
+    position:relative;
+    bottom: 20px;
+}
+button{
+    background-color: #5be6a5;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 6px 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* font-family:  Arial, Helvetica, sans-serif; */
 }
 .container {
     padding: 20px;
@@ -40,7 +77,7 @@ nav a:hover {
     padding: 10px;
 }
 .buy a {
-    background-color: #871515;
+    background-color: #5be6a5;
     float: left;
     color: white;
     text-align: center;
@@ -48,7 +85,7 @@ nav a:hover {
     text-decoration: none;
 }
 .add a {
-    background-color: #871515;
+    background-color: #5be6a5;
     float: right;
     color: white;
     text-align: center;
@@ -72,7 +109,7 @@ nav a:hover {
     margin-top: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #871515;
+    background-color: #5be6a5;
     color: white;
     font-size: 16px;
 }

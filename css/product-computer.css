@@ -293,3 +293,14 @@ button.btn-nav>a{
   color: white;
   text-decoration: none;
 }
+.compare {
+  background-color: #5be6a5;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.compare:hover {
+  background-color: #ddd;
+  color: black;
+}

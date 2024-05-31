@@ -236,6 +236,54 @@ div.sale{
     background-color: #f7f7f7;
 }
 
+div.contact {
+    padding: 16px;
+    text-align: center;
+    background-image: url(../img/background1.jpg);
+  }
+  
+  /* Full-width input fields */
+  div.contact input[type=text], div.contact input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 20px 0 25px 0;
+    /* display: block; */
+    background: #f1f1f1;
+    border-radius: 4px;
+  }
+  
+  /* Overwrite default styles of hr */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  .registerbtn {
+    background-color: #5be6a5;
+    color: white;
+    padding: 14px 14px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .register {
+    text-align: center;
+  }
+
+div.contact>textarea{
+    background-color: white;
+    border: black solid 2px;
+    padding: 0 15px;
+    margin:20px 0 35px 0;
+    width: 50%;
+    /* background: 0 0; */
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 56px;
+    height: 130px;
+}
+
 footer{
 background-image: url(../img/footer.jpg);
 background-color: black;

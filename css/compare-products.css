@@ -1,0 +1,16 @@
+.container {
+    width: 60%;
+}
+
+.thumbnai-product {
+    text-align: center;
+}
+
+.product-1 {
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+.table-bordere, th {
+    text-align: center;
+}

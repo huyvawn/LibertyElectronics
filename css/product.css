@@ -117,3 +117,8 @@ button{
     background-color: #ddd;
     color: black;
 }
+.description {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

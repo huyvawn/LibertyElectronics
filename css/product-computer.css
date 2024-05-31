@@ -5,12 +5,12 @@ html,body{
     font-weight: 400;
     line-height: 24px;
     height: 100%  ;
-    color: black;
-    background-color:#4f4aa6;
+    color: white;
+    background-color:whitesmoke;
     padding: 0 ;
     margin: 0;
-    background: url("../img/background.jpg") no-repeat center center fixed;
-    background-size: cover;
+    /* background: url("../img/background.jpg") no-repeat center center fixed;
+    background-size: cover; */
 } 
 
 .top{
@@ -22,11 +22,14 @@ html,body{
     height: 60px;
 }
 
-.header{
-    color: #ffffff;
-    background-color: transparent;
-    max-width: 1200px;
-    margin: auto;
+header{
+  background-color: #4b46a4;
+  height: 100px;
+  border-bottom: 1px solid #5be6a5 ;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  overflow: hidden;
 }
 
 .logo{
@@ -61,6 +64,8 @@ margin: 1;
   justify-content: center; /* Căn giữa theo chiều ngang */
   align-items: center; /* Căn giữa theo chiều dọc */
   height: 60vh; /* Đặt chiều cao của .main bằng chiều cao của viewport */
+  background-image: url(../img/background1.jpg);
+  margin-bottom: 30px;
         
 }
 .logo h2{
@@ -70,7 +75,7 @@ margin: 1;
     margin-bottom: 50px;   
 }
 .box1{
-  background-color: #09ac60;
+  background-color: rgb(22, 195, 97);
   color: rgb(255, 255, 255);
   padding: 5px;
   border-radius: 10px;
@@ -135,13 +140,13 @@ margin: 1;
   }
   .green-background{
     /* background-color: #4f4aa6; */
-    margin-top: 200px;
+    margin-top: 20px;
     padding: 200px;
     left: 0;
     width: 100%;
   }
   p{
-    color: black;
+    color: white;
   }
   
     @font-face {
@@ -177,8 +182,8 @@ margin: 1;
       unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
     }
     .font-effect-emboss {
-      text-shadow: 0px 1px 1px hsl(337, 74%, 48%), 0 -1px 1px #000;
-      color: hsl(337, 74%, 48%);
+      /* text-shadow: 0px 1px 1px hsl(337, 74%, 48%), 0 -1px 1px #000; */
+      color: white(337, 74%, 48%);
       font-size: 20px;
       justify-content: center;
     height: 2vh;
@@ -215,7 +220,7 @@ margin: 1;
 }
 .line2 p{
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+  color: black;
   font-size: 11px;
   margin-top: -10px;
 }
@@ -223,4 +228,79 @@ margin: 1;
   font-size: 20px;
   color: white;
   background-color: red ;
+}
+.footerblock{
+  text-align: center;
+  float: right;
+  width: 26%;
+  margin-left: 2em;
+  border-left:  1px solid #96bbaa;
+
+}
+.footerhome{
+  background-image: url(../img/footer.jpg);
+  background-color: black;
+  text-align: right;
+  overflow: auto;
+  border-top: 1px solid #96bbaa;
+  }
+  .h4 {
+    color: black;
+    text-align: center ;
+    font-size: 40px;
+  }
+  .logopage{
+    float: left;
+  }
+  footer{
+    background-image: url(../img/footer.jpg);
+    background-color: black;
+    text-align: right;
+    overflow: auto;
+    border-top: 1px solid #96bbaa;
+    }
+    nav{
+      float: right;
+      text-align: right;
+    }
+    nav li{
+      display: inline;
+      padding-right: 25px;
+  }
+  button{
+    background-color: #5be6a5;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 6px 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* font-family:  Arial, Helvetica, sans-serif; */
+}
+nav li{
+  display: inline;
+  padding-right: 25px;
+}
+img.cart{
+  border: 1px solid green;
+}
+
+input.search-bar{
+  position:relative;
+  bottom: 20px;
+}
+button.btn-nav{
+  background-color: transparent;
+  border: hidden;
+}
+
+button.btn-nav:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+button.btn-nav>a{
+  color: white;
+  text-decoration: none;
 }

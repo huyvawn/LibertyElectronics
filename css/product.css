@@ -122,3 +122,20 @@ button{
     margin-left: auto;
     margin-right: auto;
 }
+footer{
+    background-image: url(../img/footer.jpg);
+    background-color: black;
+    text-align: right;
+    overflow: auto;
+    border-top: 1px solid #96bbaa;
+    color: white;
+    }
+    
+.footerblock{
+        text-align: center;
+        float: right;
+        width: 26%;
+        margin-left: 2em;
+        border-left:  1px solid #96bbaa;
+      
+    }

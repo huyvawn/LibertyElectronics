@@ -7,15 +7,30 @@
 </head>
 <body>
     <header>
-        <h1>Liberty Electronics</h1>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo">
+        </div>
+        <nav>
+            <input type="text" placeholder="Search...." class="search-bar">
+            <a href="#">
+                <img src="img/cart.jpg" alt="Your Cart" class="cart">
+            </a> 
+            <ul>
+                <li>
+                    <a href="home.html"><button class="btn-nav">Home</button></a>
+                </li>
+                <li>
+                    <a href="about-us.html"><button class="btn-nav">About</button></a>
+                </li>
+                <li>
+                    <a href="details-our-product.html"><button class="btn-nav">Product</button></a>
+                </li>
+                <li>
+                    <a href="contact-us.html"><button class="btn-nav">Contact us</button></a>
+                </li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <a href="home.html">Home</a>
-        <a href="about-us.html">About</a>
-        <a href="details-our-product.html">Products</a>
-        <a href="contact-us.html">Contact</a>
-        <a href="">Login</a>
-    </nav>
     <div class="container">
         <div class="product-details">
             <img src="img/case1.png" alt="PC" width="600" height="">
@@ -43,10 +58,12 @@
             <p><strong>Shop</strong> : FPT APTECH<br> <strong>Cơ sở 1:</strong> Số 8, Tôn Thất Thuyết, Mỹ Đình 2, Nam Từ Liêm, Hà Nội; <br><strong>Cơ sở 2</strong>: 264 Đội Cấn - Ba Đình - Hà Nội <br><strong>Cơ sở 3</strong>: 94 Lương Yên, Quận Hai Bà Trưng, Hà Nội</p>
         </div>
         <div>
-            <p>Product details :</p>
+            <p><strong>Product details :</strong></p>
+            <p></p>
         </div>
         <div>
-            <p>Product description :</p>
+            <p><strong>Product description :</strong></p>
+            <p></p>
         </div>    
         <div class="comment-section">
             <p><strong>Comment</strong></p>
@@ -55,7 +72,7 @@
             <br />
         </div>    
         <div>        
-                <br>Vote:
+                <br><strong>Vote:</strong>
                 <input id="1sao" type="radio" name="vote" value="1">
                 <label for="1sao">1 Star</label>
                 <input id="2sao" type="radio" name="vote" value="2">

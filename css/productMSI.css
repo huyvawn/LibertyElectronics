@@ -1,0 +1,152 @@
+figure,p {
+	margin: 0;
+	
+}
+html,body{
+    /* text-align: left; */
+    /* width: 100%; */
+    color: white;
+}
+
+header{
+    background-color: #4b46a4;
+    height: 100px;
+    border-bottom: 1px solid #5be6a5 ;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    overflow: hidden;
+    
+    /* width: 100%; */
+}
+
+button.btn-nav{
+    background-color: transparent;
+    border: hidden;
+}
+
+button.btn-nav:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+button.btn-nav>a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    float: left;
+}
+
+nav{
+    float: right;
+    text-align: right;
+
+}
+
+nav li{
+    display: inline;
+    padding-right: 25px;
+}
+
+img.cart{
+    border: 1px solid green;
+}
+
+input.search-bar{
+    position:relative;
+    bottom: 0;
+}
+
+button{
+    background-color: #5be6a5;
+    color: white;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 6px 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* font-family:  Arial, Helvetica, sans-serif; */
+}
+
+footer{
+    background-image: url(../img/footer.jpg);
+    background-color: black;
+    text-align: right;
+    overflow: auto;
+    border-top: 1px solid #96bbaa;
+    clear: left;
+    }
+    
+.footerblock{
+        text-align: center;
+        float: right;
+        width: 26%;
+        margin-left: 2em;
+        border-left:  1px solid #96bbaa;
+      
+    }
+    .main{
+        margin: 0;
+        color: black;
+    }
+    .background-banner{
+        margin-top: 1px;
+        width: 1887px;
+        height: 300px;
+        
+    }
+    .product-box {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        width: 300px;
+        text-align: center;
+        margin: 20px;
+        float: left;
+        padding: 1.7cm;
+    }
+    
+    .product-box img {
+        width: 100%;
+        height: auto;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    .product-title {
+        font-size: 1.5em;
+        margin: 10px 0;
+        color: #333;
+    }
+    
+    .product-description {
+        font-size: 1em;
+        color: #777;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    
+    .product-price {
+        font-size: 1.25em;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    
+    .buy-button {
+        display: inline-block;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        background-color: #28a745;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s ease;
+    }
+    
+    .buy-button:hover {
+        background-color: #218838;
+    }

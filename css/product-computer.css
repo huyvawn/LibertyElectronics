@@ -87,6 +87,10 @@ margin: 1;
   
 
 }
+
+a{
+  text-decoration: none;
+}
 .container {
   display: flex;
   gap: 30px;
